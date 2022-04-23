@@ -1,0 +1,151 @@
+* {
+     padding: 0; margin: 0; 
+}
+body{
+    background-image: url("download.jpg");
+  }
+h1 {
+    color: brown;
+    font-size: 45px;
+}
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    height: 105px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cd/Black_flag.svg");
+  }
+#mainNav .navbar-brand {
+    color: #f1f1f1;
+
+  }
+#mainNav .navbar-nav {
+    margin-top: 1rem;
+  }
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    color: #f1f1f1;
+  }
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #00aaff;
+  }
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+    color: #00aaff;
+  }
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+    color: #00aaff;
+  }
+#mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.8rem;
+    
+}
+  
+@media (min-width: 992px) {
+#mainNav {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      transition: padding-top 0.3s, padding-bottom 0.3s;
+      background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cd/Black_flag.svg");
+      height: 90px;
+    }
+#mainNav .navbar-brand {
+      font-size: 1.75em;
+      transition: font-size 0.3s;
+      
+    }
+#mainNav .navbar-nav {
+      margin-top: 0;
+    }
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+        color: #fff;
+        background: #00aaff;
+    }
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+      color: #fff;
+      background: #00aaff;
+      
+    }
+  
+#mainNav.navbar-shrink {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      
+    }
+#mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.5em;
+      
+    }
+  }
+
+
+
+/* 3*3 Grid */
+#b1, #b2, #b3, #b4, #b5,
+#b6, #b7, #b8, #b9 {
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+    cursor:pointer;
+}
+
+/* Reset Button */
+#but {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid dodgerblue;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Player turn space */
+#print {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+/* Main Container */
+#main {
+    text-align: center;
+    background-color: black;
+    justify-content: center;
+    border-radius: 30px;
+    width: 500px;
+    height: 750px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+/* Game Instruction Text */
+#ins {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+         
+    color: dodgerblue;
+    font-size: 17px;
+}
+h3{
+    color: yellowgreen;
+}
+.button{
+    border-radius: 30px;
+    background-color: #00aaff;
+    color: #fff;
+    text-decoration: none ;
+}
